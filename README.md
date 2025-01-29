@@ -4,19 +4,6 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
-## 📂 Repository Structure
-
-This repository is organized into folders for each project or assignment. Here's an overview of the structure:
-
-.Net-Programming/
-├── Project-1-Shape-Calculator/ # Shape Calculator Application
-├── Project-2-Future-Projects/ # Future Project
-├── README.md # This file
-├── LICENSE # MIT LICENSE
-└── ... # More projects to come!
-
----
-
 ## 🛠️ Projects
 
 ### 1. **Shape Calculator**
@@ -31,7 +18,7 @@ This repository is organized into folders for each project or assignment. Here's
 - **How to Run**:
   1. Clone the repository.
   2. Navigate to the `Project-1-Shape-Calculator` folder.
-  3. Run the program using `dotnet run`.
+  3. Run the program using `dotnet run`. (Ensure you have .NET installed on your hardware).
 
 ---
 
@@ -39,8 +26,8 @@ This repository is organized into folders for each project or assignment. Here's
 
 Hi! I'm **Irving F. Sanchez**, a student at **Lewis University** pursuing my passion for software development. This repository is a reflection of my journey in learning **.NET programming** and building practical applications.
 
-- **Professional Website**: [Your Professional Profile](https://irving.cyberkineticengineering.com/)
-- **GitHub**: [Your GitHub Profile](https://github.com/IrvingFSanchez)
+- **Professional Website**: [irving.cyberkineticengineering.com](https://irving.cyberkineticengineering.com/)
+- **GitHub**: [/IrvingFSanchez](https://github.com/IrvingFSanchez)
 - **Email**: <IrvingFSanchez@proton.me>
 
 ---
@@ -53,8 +40,8 @@ This repository is licensed under the **MIT License**. Feel free to use, modify,
 
 ## 🙏 Acknowledgments
 
-- **Lewis University**: Under the guidance for the B.S. Computer Science cirriculumn program and deparment director Dr. Klump
-- **Professor [Dr. Ray Klumb]**: For guiding me through the .NET Programming course.
+- **Lewis University**: Under the guidance requirements for the B.S. Computer Science cirriculumn
+- **Professor [Dr. Ray Klumb]**: For guiding us through the .NET Programming course.
 - **You**: For visiting this repository! If you find it useful, please give it a ⭐!
 
 ---
