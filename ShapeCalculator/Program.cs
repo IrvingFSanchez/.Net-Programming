@@ -111,8 +111,8 @@ namespace ShapeCalculator //Defines the name space to organize the code accordin
 
             /*Sixth Point*/
             //End Program with a thank you message
-            Console.WriteLine("Thank you for using this program.") ;
-
+            Console.WriteLine("Thank you for using this program.");
+            Console.WriteLine();
 
         }
     }
