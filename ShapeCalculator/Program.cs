@@ -17,7 +17,8 @@ namespace ShapeCalculator //Defines the name space to organize the code accordin
         static void Main(string[] args) //The entry point of this program, basically the meat of the code goes inside here
         {
 
-            /*First Point*/
+
+            /*Banner*/
             //Here I will print the heading of the application (what users initially will see) and the initial questions to the user
             string asterisk = "*";
             string text = "Shape Calculator V1.0";
@@ -32,31 +33,65 @@ namespace ShapeCalculator //Defines the name space to organize the code accordin
             Console.WriteLine(centerText);
             Console.WriteLine(bottomLine);
             Console.WriteLine();
+            /*End Banner*/
 
-            //Here I will ask the user to enter the dimensions of the cube
+
+            /*Calculating Cube Volume*/
+            //Here I will ask the user to enter the dimensions of the cube but also handle invalid inputs
             Console.WriteLine("First, Let's deal with the cube.");
             Console.Write("What is the width?" );
-            double width = double.Parse(Console.ReadLine());//Double declaries variable named width of type double (like a # w/ decimal). double.parse converts string into a double
+            string widthInput = Console.ReadLine(); //Declares a variable named lengthInput of type string and assigns it the value of the user input
+
+            double width;
+            while (!double.TryParse(widthInput, out width)) //To ensure valid inputs this will keep asking user for a valid input until it is properly provided
+            {
+                Console.WriteLine("Invalid input. Please enter a proper value for the width. ");
+                Console.Write("What is the width? ");
+                widthInput = Console.ReadLine();
+            }
 
             Console.Write("What is the length? ");
-            double length = double.Parse(Console.ReadLine());
+            string lengthInput = Console.ReadLine();
+
+            double length;
+            while (!double.TryParse(lengthInput, out length))
+            {
+                Console.WriteLine("Invalid input. Please enter a proper value for the length. ");
+                Console.Write("What is the length? ");
+                lengthInput = Console.ReadLine();
+            }
 
             Console.Write("What is the height? ");
-            double height = double.Parse(Console.ReadLine());
+            string heightInput = Console.ReadLine();
 
-            /*Second Point*/
-            //Here we are going to calculate the volume of the cube using the formula: volume = width * length * height and then print it out
-            double cubeVolume = width * length * height;
+            double height;
+            while (!double.TryParse(heightInput, out height))
+            {
+                Console.WriteLine("Invalid input. Please enter a proper value for the height. ");
+                Console.Write("What is the height? ");
+                heightInput = Console.ReadLine();
+            }
 
-            //Here we will display the volume of the cube while formatting it with 3 decomial places
-            Console.WriteLine($"The cubes volume is: {cubeVolume:F3}"); //The F3 formats the # to 3 decimal places and $ before the string is used to insert the value of the variable cubeVolume
+            double cubeVolume = width * length * height; //variable and calculation to determine the volume of the cube
+
+            Console.WriteLine($"The cube's volume is: {cubeVolume}"); //Prints out the volume of the cube
             Console.WriteLine();
+            /*End Calculating Cube Volume*/
 
-            /*Third Point*/
+
+            /*Calculating Sphere Volume*/
             //Here I will ask the user to enter the radius of the sphere
             Console.WriteLine("Now, Let's deal with the sphere.");
             Console.WriteLine("What is the radius? ");
-            double radius = double.Parse(Console.ReadLine());
+            string radiusInput = Console.ReadLine();
+
+            double radius;
+            while (!double.TryParse(radiusInput, out radius))
+            {
+                Console.WriteLine("Invalid input. Please enter a proper value for the radius. ");
+                Console.WriteLine("What is the radius? ");
+                radiusInput = Console.ReadLine();
+            }
 
             /*Fourth Point*/
             //Here we are going to calculate the volume of the sphere using the formula: volume = 4/3 * pi * radius^3 and then print it out
