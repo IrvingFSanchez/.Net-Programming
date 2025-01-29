@@ -41,7 +41,7 @@ This repository is licensed under the **MIT License**. Feel free to use, modify,
 ## 🙏 Acknowledgments
 
 - **Lewis University**: Under the guidance requirements for the B.S. Computer Science cirriculumn
-- **Professor [Dr. Ray Klumb]**: For guiding us through the .NET Programming course.
+- **Professor [Dr. Ray Klump]**: For guiding us through the .NET Programming course.
 - **You**: For visiting this repository! If you find it useful, please give it a ⭐!
 
 ---
