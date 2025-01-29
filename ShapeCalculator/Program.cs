@@ -39,39 +39,40 @@ namespace ShapeCalculator //Defines the name space to organize the code accordin
             /*Calculating Cube Volume*/
             //Here I will ask the user to enter the dimensions of the cube but also handle invalid inputs
             Console.WriteLine("First, Let's deal with the cube.");
+            //Width
             Console.Write("What is the width?" );
-            string widthInput = Console.ReadLine(); //Declares a variable named lengthInput of type string and assigns it the value of the user input
+            string widthInput = Console.ReadLine() ?? ""; //This will read the user's input and store it in the variable widthInput othersie it will store an empty string if the input is null
 
             double width;
             while (!double.TryParse(widthInput, out width)) //To ensure valid inputs this will keep asking user for a valid input until it is properly provided
             {
                 Console.WriteLine("Invalid input. Please enter a proper value for the width. ");
                 Console.Write("What is the width? ");
-                widthInput = Console.ReadLine();
+                widthInput = Console.ReadLine() ?? "";
             }
 
             Console.Write("What is the length? ");
-            string lengthInput = Console.ReadLine();
-
+            string lengthInput = Console.ReadLine() ?? "";
+            //Length
             double length;
             while (!double.TryParse(lengthInput, out length))
             {
                 Console.WriteLine("Invalid input. Please enter a proper value for the length. ");
                 Console.Write("What is the length? ");
-                lengthInput = Console.ReadLine();
+                lengthInput = Console.ReadLine() ?? "";
             }
-
+            //Height
             Console.Write("What is the height? ");
-            string heightInput = Console.ReadLine();
+            string heightInput = Console.ReadLine() ?? "";
 
             double height;
             while (!double.TryParse(heightInput, out height))
             {
                 Console.WriteLine("Invalid input. Please enter a proper value for the height. ");
                 Console.Write("What is the height? ");
-                heightInput = Console.ReadLine();
+                heightInput = Console.ReadLine() ?? "";
             }
-
+            //Cube Volume Calculation
             double cubeVolume = width * length * height; //variable and calculation to determine the volume of the cube
 
             Console.WriteLine($"The cube's volume is: {cubeVolume}"); //Prints out the volume of the cube
@@ -83,14 +84,14 @@ namespace ShapeCalculator //Defines the name space to organize the code accordin
             //Here I will ask the user to enter the radius of the sphere
             Console.WriteLine("Now, Let's deal with the sphere.");
             Console.WriteLine("What is the radius? ");
-            string radiusInput = Console.ReadLine();
+            string radiusInput = Console.ReadLine() ?? "";
 
             double radius;
             while (!double.TryParse(radiusInput, out radius))
             {
                 Console.WriteLine("Invalid input. Please enter a proper value for the radius. ");
                 Console.WriteLine("What is the radius? ");
-                radiusInput = Console.ReadLine();
+                radiusInput = Console.ReadLine() ?? "";
             }
 
             /*Fourth Point*/
