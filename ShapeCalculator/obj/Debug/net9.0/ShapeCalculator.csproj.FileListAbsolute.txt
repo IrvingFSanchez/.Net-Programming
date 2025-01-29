@@ -1,0 +1,15 @@
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\bin\Debug\net9.0\ShapeCalculator.exe
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\bin\Debug\net9.0\ShapeCalculator.deps.json
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\bin\Debug\net9.0\ShapeCalculator.runtimeconfig.json
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\bin\Debug\net9.0\ShapeCalculator.dll
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\bin\Debug\net9.0\ShapeCalculator.pdb
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\obj\Debug\net9.0\ShapeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\obj\Debug\net9.0\ShapeCalculator.AssemblyInfoInputs.cache
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\obj\Debug\net9.0\ShapeCalculator.AssemblyInfo.cs
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\obj\Debug\net9.0\ShapeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\obj\Debug\net9.0\ShapeCalculator.sourcelink.json
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\obj\Debug\net9.0\ShapeCalculator.dll
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\obj\Debug\net9.0\refint\ShapeCalculator.dll
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\obj\Debug\net9.0\ShapeCalculator.pdb
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\obj\Debug\net9.0\ShapeCalculator.genruntimeconfig.cache
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\ShapeCalculator\obj\Debug\net9.0\ref\ShapeCalculator.dll
