@@ -1,8 +1,8 @@
 ﻿/*
 Name: Irving F. Sanchez
-Course: .NET Programming
+Course: CPSC-23000-001 .NET Programming 
 School: Lewis University, Romeoville, IL
-Purpose: Calculate the volume of a cube and sphere
+Purpose: Calculate the volume of a cube and sphere then display the total volume of both shapes.
 */
 
 /*Note: I put a ton of comments in my code for personal use, I add notes to help me understand what
