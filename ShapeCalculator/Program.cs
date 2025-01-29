@@ -18,11 +18,20 @@ namespace ShapeCalculator //Defines the name space to organize the code accordin
         {
 
             /*First Point*/
-            //Here I will print the heading of the application (what users initially will see)
-            Console.WriteLine("------------------------");//Console.Write is similar to print in a lot of other languages
-            Console.WriteLine("Shape Volume Calculator V1.0"); //Prints out the title of the program
-            Console.WriteLine("------------------------");
-            Console.WriteLine(); //Prints out a blank line
+            //Here I will print the heading of the application (what users initially will see) and the initial questions to the user
+            string asterisk = "*";
+            string text = "Shape Calculator V1.0";
+            int bannerWidth = 50; //Sets the total width of the banner i'm trying to make
+
+            string topLine = new string(asterisk[0], bannerWidth); //Creates a string of asterisks that is the same length as the bannerWidth
+            int padding = (bannerWidth - text.Length) / 2; //This will calculate the padding needed to ensure the text is centered between the asterisks and looks clean
+            string centerText = text.PadLeft(padding + text.Length).PadRight(bannerWidth); //This is going to center the text between the asterisks
+            string bottomLine = topLine;
+
+            Console.WriteLine(topLine);
+            Console.WriteLine(centerText);
+            Console.WriteLine(bottomLine);
+            Console.WriteLine();
 
             //Here I will ask the user to enter the dimensions of the cube
             Console.WriteLine("First, Let's deal with the cube.");
