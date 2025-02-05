@@ -17,7 +17,24 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 - **Technologies Used**: C#, .NET, Console Application.
 - **How to Run**:
   1. Clone the repository.
-  2. Navigate to the `Project-1-Shape-Calculator` folder.
+  2. Navigate to the `ShapeCalculator` folder.
+  3. Run the program using `dotnet run`. (Ensure you have .NET installed on your hardware).
+
+---
+
+### 2. **Polynomial Calculator**
+
+- **Description**: A C# console application that calculates the values of polynomial functions (up to degree 3) over a specified domain. It allows users to input coefficients, domain ranges, and displays the polynomial's values in a tabulated format.
+- **Features**:
+  - 🎨 Custom banner with centered text.
+  - 🔢 Input validation for degree, coefficients, and domain values.
+  - 📊 Tabulated output of polynomial values over the domain.
+  - 🔄 Ability to compute multiple polynomials in one session.
+  - 🔄 Automatic swapping of `minX` and `maxX` if `minX > maxX`.
+- **Technologies Used**: C#, .NET, Console Application.
+- **How to Run**:
+  1. Clone the repository.
+  2. Navigate to the `PolynomialCalculator` folder.
   3. Run the program using `dotnet run`. (Ensure you have .NET installed on your hardware).
 
 ---
@@ -60,6 +77,13 @@ This repository is licensed under the **MIT License**. Feel free to use, modify,
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/IrvingFSanchez/.Net-Programming?style=for-the-badge)
 ![GitHub Stars](https://img.shields.io/github/stars/IrvingFSanchez/.Net-Programming?style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/IrvingFSanchez/.Net-Programming?style=for-the-badge)
+
+---
+
+## 🌟 Why This Repository?
+
+This repository is more than just a collection of projects it's a testament to my growth as a developer. Each project reflects my dedication to learning, problem-solving, and creating practical tools. Whether you're a fellow student, a developer, or just curious, I hope you find something inspiring here! My goal is to develop software everybody can
+understand.
 
 ---
 
