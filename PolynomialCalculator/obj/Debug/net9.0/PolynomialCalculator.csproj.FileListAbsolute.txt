@@ -1,0 +1,15 @@
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\obj\Debug\net9.0\PolynomialCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\obj\Debug\net9.0\PolynomialCalculator.AssemblyInfoInputs.cache
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\obj\Debug\net9.0\PolynomialCalculator.AssemblyInfo.cs
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\obj\Debug\net9.0\PolynomialCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\obj\Debug\net9.0\PolynomialCalculator.sourcelink.json
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\bin\Debug\net9.0\PolynomialCalculator.exe
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\bin\Debug\net9.0\PolynomialCalculator.deps.json
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\bin\Debug\net9.0\PolynomialCalculator.runtimeconfig.json
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\bin\Debug\net9.0\PolynomialCalculator.dll
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\bin\Debug\net9.0\PolynomialCalculator.pdb
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\obj\Debug\net9.0\PolynomialCalculator.dll
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\obj\Debug\net9.0\refint\PolynomialCalculator.dll
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\obj\Debug\net9.0\PolynomialCalculator.pdb
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\obj\Debug\net9.0\PolynomialCalculator.genruntimeconfig.cache
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\PolynomialCalculator\obj\Debug\net9.0\ref\PolynomialCalculator.dll
