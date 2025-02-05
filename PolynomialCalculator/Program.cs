@@ -257,16 +257,15 @@ namespace PolynomialCalculator
 
 /* 
 
-   1. Download and Install the .NET SDK https://dotnet.microsoft.com/en-us/download
-   2. Clone the repository to your local machine
-   3. For visual studio code ensure you have the C# extension installed
-   4. Open the project in Visual Studio Code
-   5. Open the terminal in Visual Studio Code
-   6. Navigate to the project folder
-   7. Run the command "dotnet run" in the terminal
+1. Download and Install the .NET SDK https://dotnet.microsoft.com/en-us/download
+2. Clone the repository to your local machine
+3. For visual studio code ensure you have the C# extension installed
+4. Open the project in Visual Studio Code
+5. Open the terminal in Visual Studio Code
+6. Navigate to the project folder
+7. Run the command "dotnet run" in the terminal
 
-   for future reference in case you didn't build the project yet you can run the command "dotnet build" to build the project before running it. Before step 7. 
-   but in this case I alread built the project
-   
-   
+for future reference in case you didn't build the project yet you can run the command "dotnet build" to build the project before running it. Before step 7. 
+but in this case I alread built the project
+
 */
