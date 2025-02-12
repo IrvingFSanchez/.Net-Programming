@@ -1,0 +1,15 @@
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\obj\Debug\net9.0\Storefront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\obj\Debug\net9.0\Storefront.AssemblyInfoInputs.cache
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\obj\Debug\net9.0\Storefront.AssemblyInfo.cs
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\obj\Debug\net9.0\Storefront.csproj.CoreCompileInputs.cache
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\obj\Debug\net9.0\Storefront.sourcelink.json
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\bin\Debug\net9.0\Storefront.exe
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\bin\Debug\net9.0\Storefront.deps.json
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\bin\Debug\net9.0\Storefront.runtimeconfig.json
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\bin\Debug\net9.0\Storefront.dll
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\bin\Debug\net9.0\Storefront.pdb
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\obj\Debug\net9.0\Storefront.dll
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\obj\Debug\net9.0\refint\Storefront.dll
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\obj\Debug\net9.0\Storefront.pdb
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\obj\Debug\net9.0\Storefront.genruntimeconfig.cache
+C:\Users\Irvin\Downloads\Visual-Studio-Projects\.NET-Programming\Storefront\Storefront\obj\Debug\net9.0\ref\Storefront.dll

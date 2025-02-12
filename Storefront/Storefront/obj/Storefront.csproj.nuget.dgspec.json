@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\ShapeCalculator\\ShapeCalculator.csproj": {}
+    "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\Storefront\\Storefront\\Storefront.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\ShapeCalculator\\ShapeCalculator.csproj": {
+    "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\Storefront\\Storefront\\Storefront.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\ShapeCalculator\\ShapeCalculator.csproj",
-        "projectName": "ShapeCalculator",
-        "projectPath": "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\ShapeCalculator\\ShapeCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\Storefront\\Storefront\\Storefront.csproj",
+        "projectName": "Storefront",
+        "projectPath": "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\Storefront\\Storefront\\Storefront.csproj",
         "packagesPath": "C:\\Users\\Irvin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\ShapeCalculator\\obj\\",
+        "outputPath": "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\Storefront\\Storefront\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
