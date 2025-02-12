@@ -151,6 +151,9 @@ namespace Storefront // Defining the namespace to organize the code
             Console.WriteLine($"Total cost: ${totalCost:F2}");
             Console.WriteLine("\nThank you for shopping with us!\n");
             /*---+---+---+--End of Checkout Block---+---+---+--*/
+
+
+            
         }
     }
 }
