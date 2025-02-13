@@ -39,6 +39,24 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
+### 3. **Storefront**
+
+- **Description**: A C# console application that simulates a storefront where users can purchase items from an inventory loaded from a text file. The program allows users to add items to their cart, specify quantities, and calculates the total cost at checkout.
+- **Features**:
+  - 🎨 Custom banner with centered text.
+  - 📂 Automatically reads inventory from a text file (`Storefront.txt`).
+  - 🛒 Allows users to add items to their cart and update quantities.
+  - 🔢 Input validation for item names and quantities.
+  - 📊 Displays a sorted list of purchased items and the total cost.
+- **Technologies Used**: C#, .NET, Console Application, File I/O.
+- **How to Run**:
+  1. Clone the repository.
+  2. Navigate to the `Storefront/Storefront` folder.
+  3. Ensure the `Storefront.txt` file is in the same folder as the program but also put it in the bin/debug/netx.x folder just in case.
+  4. Run the program using `dotnet run`. (Ensure you have .NET installed on your hardware).
+
+---
+
 ## 🧑‍💻 About Me
 
 Hi! I'm **Irving F. Sanchez**, a student at **Lewis University** pursuing my passion for software development. This repository is a reflection of my journey in learning **.NET programming** and building practical applications.
