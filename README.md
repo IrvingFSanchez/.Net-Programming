@@ -27,10 +27,10 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 - **Description**: A C# console application that calculates the values of polynomial functions (up to degree 3) over a specified domain. It allows users to input coefficients, domain ranges, and displays the polynomial's values in a tabulated format.
 - **Features**:
   - 🎨 Custom banner with centered text.
-  - 🔢 Input validation for degree, coefficients, and domain values.
+  - ✔️ Input validation for degree, coefficients, and domain values.
   - 📊 Tabulated output of polynomial values over the domain.
   - 🔄 Ability to compute multiple polynomials in one session.
-  - 🔄 Automatic swapping of `minX` and `maxX` if `minX > maxX`.
+  - 🪄 Automatic swapping of `minX` and `maxX` if `minX > maxX`.
 - **Technologies Used**: C#, .NET, Console Application.
 - **How to Run**:
   1. Clone the repository.
@@ -44,10 +44,10 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 - **Description**: A C# console application that simulates a storefront where users can purchase items from an inventory loaded from a text file. The program allows users to add items to their cart, specify quantities, and calculates the total cost at checkout.
 - **Features**:
   - 🎨 Custom banner with centered text.
-  - 📂 Automatically reads inventory from a text file (`Storefront.txt`).
+  - 📚 Automatically reads inventory from a text file (`Storefront.txt`).
   - 🛒 Allows users to add items to their cart and update quantities.
-  - 🔢 Input validation for item names and quantities.
-  - 📊 Displays a sorted list of purchased items and the total cost.
+  - ✅ Input validation for item names and quantities.
+  - 🧾 Displays a sorted list of purchased items and the total cost.
 - **Technologies Used**: C#, .NET, Console Application, File I/O.
 - **How to Run**:
   1. Clone the repository.
