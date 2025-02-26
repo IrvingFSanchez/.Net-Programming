@@ -303,17 +303,3 @@ namespace ADHDPlanner
     }
 }
 
-#Futre Additions I'd like to add: 
-# 1. Allow user to choose a custom file path for saving
-# 2. Add Reminders and Notifications using sound or pop-up notifications, nothing super fancy--simple and clean
-# 3. Add a progress bar
-# 4. Add a task category or tags allowing users to categorize tasks for example: Work, Personal, School, etc.
-# 5. Add a feature to allow users to export tasks to a file such as a CSV, Excel, or PDF file.
-# 6. Add a feature to allow automatic prioritization of tasks based on due date and priority level.
-# 7. Add an achievement feature to award points for completing tasks on time, track streaks for consecutive days of completing tasks, so on and so forth
-# 8. Add a feature that allows users to create and use task templates for common tasks. This can be added to the ADHDEvent class as a property.
-# 9. Add a feature for Dark Mode using Console.BackgroundColor and Console.ForegroundColor properties.
-# 10. Add Task Archiving feature to archive completed tasks and remove them from the main list.
-# 11. Add Data Visualization feature to display tasks in a graphical format using ASCII art or other simple graphical representations--perhaps LiveCharts or OxyPlot
-# 12. Add Task Commenting or Notes
-# 13. Add Customizable Themes and/or perhaps a better UI
