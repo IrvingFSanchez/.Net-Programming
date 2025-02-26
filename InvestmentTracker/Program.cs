@@ -10,6 +10,7 @@ Note: The basis of the program will provide users a way to manage checking accou
 */
 
 // Many of my resources on C# programming come from (https://learn.microsoft.com/en-us/dotnet/csharp/)
+// Furthermore, a lot of inspiration for this software came from my previous project ADHDPlanner
 
 using System; // This ensures the importing the System namespace for Console class
 using Figgle; // This ensures the importing the Figgle namespace for ASCII art that will represent the banner for this program

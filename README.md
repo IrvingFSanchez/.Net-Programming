@@ -76,6 +76,25 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
+### 5. **Investment Tracker** 💰
+
+- **Description**: A C# console application that helps users manage their investments, including checking accounts and certificates of deposit (CDs). It features deposits, withdrawals, auto-adjustments, and account summaries, emphasizing **encapsulation**, **inheritance**, and **polymorphism**.
+- **Features**:
+  - 🎨 Custom banner with centered text and ASCII art using Figgle.
+  - 💳 Create and manage **checking accounts** with overdraft fees.
+  - 📈 Create and manage **CD accounts** with interest accrual.
+  - 💵 Deposit and withdraw funds from checking accounts.
+  - 🔄 Auto-adjust accounts: Apply overdraft fees or add interest.
+  - 📊 View account summaries with formatted details.
+  - ✅ Input validation for all user inputs.
+- **Technologies Used**: C#, .NET, Console Application, Object-Oriented Programming (OOP).
+- **How to Run**:
+  1. Clone the repository.
+  2. Navigate to the `InvestmentTracker` folder.
+  3. Run the program using `dotnet run`. (Ensure you have .NET installed on your hardware). May need to run `dotnet build` first.
+
+---
+
 ## 🧑‍💻 About Me
 
 Hi! I'm **Irving F. Sanchez**, a student at **Lewis University** pursuing my passion for software development. This repository is a reflection of my journey in learning **.NET programming** and building practical applications.
