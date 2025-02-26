@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "l8IavLKpSs4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\ADHDPlanner\\ADHDPlanner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Irvin\\.nuget\\packages\\figgle\\0.5.1\\figgle.0.5.1.nupkg.sha512",
+    "C:\\Users\\Irvin\\.nuget\\packages\\figgle.generator\\0.5.1\\figgle.generator.0.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

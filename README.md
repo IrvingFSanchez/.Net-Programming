@@ -57,6 +57,25 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
+### 4. **ADHD-Friendly Task Planner**
+
+- **Description**: A C# console application designed to help individuals with ADHD manage tasks, prioritize, and track deadlines. It includes features like task prioritization, due date tracking, and filtering by priority.
+- **Features**:
+  - 🎨 Custom banner with blue ASCII art for visual appeal.
+  - 📝 Add, edit, delete, and mark tasks as completed.
+  - 🎨 Color-coded priority levels (High: Red, Medium: Yellow, Low: Green).
+  - 📅 Sort tasks by due date.
+  - 🔍 Filter tasks by priority level.
+  - 📊 Progress tracking with percentage of tasks completed.
+  - 💾 Save and load tasks to/from a JSON file for persistence.
+- **Technologies Used**: C#, .NET, Console Application, JSON Serialization.
+- **How to Run**:
+  1. Clone the repository.
+  2. Navigate to the `ADHDPlanner` folder.
+  3. Run the program using `dotnet run`. (Ensure you have .NET installed on your hardware).
+
+---
+
 ## 🧑‍💻 About Me
 
 Hi! I'm **Irving F. Sanchez**, a student at **Lewis University** pursuing my passion for software development. This repository is a reflection of my journey in learning **.NET programming** and building practical applications.
@@ -75,7 +94,7 @@ This repository is licensed under the **MIT License**. Feel free to use, modify,
 
 ## 🙏 Acknowledgments
 
-- **Lewis University**: Under the guidance requirements for the B.S. Computer Science cirriculumn
+- **Lewis University**: Under the guidance requirements for the B.S. Computer Science curriculum.
 - **Professor [Dr. Ray Klump]**: For guiding us through the .NET Programming course.
 - **You**: For visiting this repository! If you find it useful, please give it a ⭐!
 
@@ -100,8 +119,7 @@ This repository is licensed under the **MIT License**. Feel free to use, modify,
 
 ## 🌟 Why This Repository?
 
-This repository is more than just a collection of projects it's a testament to my growth as a developer. Each project reflects my dedication to learning, problem-solving, and creating practical tools. Whether you're a fellow student, a developer, or just curious, I hope you find something inspiring here! My goal is to develop software everybody can
-understand.
+This repository is more than just a collection of projects—it's a testament to my growth as a developer. Each project reflects my dedication to learning, problem-solving, and creating practical tools. Whether you're a fellow student, a developer, or just curious, I hope you find something inspiring here! My goal is to develop software everybody can understand.
 
 ---
 
