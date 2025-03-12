@@ -1,0 +1,20 @@
+[
+  {
+    "UniqueIdentifier": 1234,
+    "CaptivatingTitle": "Greatest Book Ever",
+    "EnrichingDescription": "The Best Book",
+    "IsReserved": false
+  },
+  {
+    "UniqueIdentifier": 27,
+    "CaptivatingTitle": "Batman\u0027s Greatest Cocktail Drinks",
+    "EnrichingDescription": "Batman actually doesn\u0027t drink, but he does make a mean virgin mamosa",
+    "IsReserved": false
+  },
+  {
+    "UniqueIdentifier": 777,
+    "CaptivatingTitle": "Detective Comics No. 27",
+    "EnrichingDescription": "The First Time Batman ever appears in comic books",
+    "IsReserved": false
+  }
+]
