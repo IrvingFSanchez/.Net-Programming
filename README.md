@@ -95,6 +95,24 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
+### 6. **Library Management System** 📚
+
+- **Description**: A C# console application that models a library system. It allows users to manage books and periodicals, check out and return holdings, and view statistics about the library's collection. The program emphasizes **inheritance**, **polymorphism**, and **encapsulation**.
+- **Features**:
+  - 🎨 Custom banner with colored ASCII art using Figgle.
+  - 📚 Add books and periodicals to the library.
+  - 🔄 Check out and return holdings.
+  - 📊 View statistics about available and checked-out holdings.
+  - 💾 Save and load library data to/from a JSON file.
+  - ✅ Input validation for all user inputs.
+- **Technologies Used**: C#, .NET, Console Application, JSON Serialization, Object-Oriented Programming (OOP).
+- **How to Run**:
+  1. Clone the repository.
+  2. Navigate to the `LibraryManagementSystem` folder.
+  3. Run the program using `dotnet run`. (Ensure you have .NET installed on your hardware). May need to run `dotnet build` first.
+
+---
+
 ## 🧑‍💻 About Me
 
 Hi! I'm **Irving F. Sanchez**, a student at **Lewis University** pursuing my passion for software development. This repository is a reflection of my journey in learning **.NET programming** and building practical applications.
