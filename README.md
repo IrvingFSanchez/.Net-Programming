@@ -115,7 +115,7 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ## 🧑‍💻 About Me
 
-Hi! I'm **Irving F. Sanchez**, a student at **Lewis University** pursuing my passion for software development. This repository is a reflection of my journey in learning **.NET programming** and building practical applications.
+Hi! I'm **Irving F. Sanchez**, a student at **Lewis University** in Romeoville, Illinois pursuing my passion for software development and computer engineering. This repository is a reflection of my journey in learning **.NET programming** and building practical applications.
 
 - **Professional Website**: [irving.cyberkineticengineering.com](https://irving.cyberkineticengineering.com/)
 - **GitHub**: [/IrvingFSanchez](https://github.com/IrvingFSanchez)

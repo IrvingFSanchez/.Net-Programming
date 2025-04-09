@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ADHDPlanner/1.0.0": {
+        "dependencies": {
+          "Figgle": "0.5.1",
+          "Figgle.Generator": "0.5.1"
+        },
+        "runtime": {
+          "ADHDPlanner.dll": {}
+        }
+      },
+      "Figgle/0.5.1": {
+        "runtime": {
+          "lib/netstandard2.0/Figgle.dll": {
+            "assemblyVersion": "0.5.1.0",
+            "fileVersion": "0.5.1.0"
+          }
+        }
+      },
+      "Figgle.Generator/0.5.1": {}
+    }
+  },
+  "libraries": {
+    "ADHDPlanner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Figgle/0.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F21k9oOGRgSb+1dCX0kFDYRBbShSMFvL49xjNmF/dsJwiN5M7zBaSWsYKpi/KZWXVIIxNzTbNTq9ZciucaHYMQ==",
+      "path": "figgle/0.5.1",
+      "hashPath": "figgle.0.5.1.nupkg.sha512"
+    },
+    "Figgle.Generator/0.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aWooil9u/1p/QeYPfgjl20szfTM9CLPfMcQmnWlT8Rvbr8PFYctVItiQS5A7WPFk1wc3T9mQq+zkswxuT8brAg==",
+      "path": "figgle.generator/0.5.1",
+      "hashPath": "figgle.generator.0.5.1.nupkg.sha512"
+    }
+  }
+}

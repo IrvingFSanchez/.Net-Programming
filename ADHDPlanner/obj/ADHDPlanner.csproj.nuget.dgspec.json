@@ -1,37 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\ADHDPlanner\\ADHDPlanner.csproj": {}
+    "C:\\Users\\Irvin\\Downloads\\Programming-Hub\\Dot-Net-Programming\\.Net-Programming\\ADHDPlanner\\ADHDPlanner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\ADHDPlanner\\ADHDPlanner.csproj": {
+    "C:\\Users\\Irvin\\Downloads\\Programming-Hub\\Dot-Net-Programming\\.Net-Programming\\ADHDPlanner\\ADHDPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\ADHDPlanner\\ADHDPlanner.csproj",
+        "projectUniqueName": "C:\\Users\\Irvin\\Downloads\\Programming-Hub\\Dot-Net-Programming\\.Net-Programming\\ADHDPlanner\\ADHDPlanner.csproj",
         "projectName": "ADHDPlanner",
-        "projectPath": "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\ADHDPlanner\\ADHDPlanner.csproj",
+        "projectPath": "C:\\Users\\Irvin\\Downloads\\Programming-Hub\\Dot-Net-Programming\\.Net-Programming\\ADHDPlanner\\ADHDPlanner.csproj",
         "packagesPath": "C:\\Users\\Irvin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Irvin\\Downloads\\Visual-Studio-Projects\\.NET-Programming\\ADHDPlanner\\obj\\",
+        "outputPath": "C:\\Users\\Irvin\\Downloads\\Programming-Hub\\Dot-Net-Programming\\.Net-Programming\\ADHDPlanner\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Irvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Irvin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net9.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
             "projectReferences": {}
           }
         },
@@ -48,8 +41,8 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
           "dependencies": {
             "Figgle": {
               "target": "Package",
@@ -74,9 +67,12 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

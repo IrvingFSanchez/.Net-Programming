@@ -1,11 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net9.0</TargetFramework>
+    <!-- Use WinExe for a Windows Forms app -->
+    <OutputType>WinExe</OutputType>
+
+    <!-- Target .NET 9 with Windows support -->
+    <TargetFramework>net9.0-windows</TargetFramework>
+
+    <!-- Enable Windows Forms -->
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <!-- Other project settings -->
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Figgle" Version="0.5.1" />
     <PackageReference Include="Figgle.Generator" Version="0.5.1" />
