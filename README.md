@@ -57,22 +57,26 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
-### 4. **ADHD-Friendly Task Planner**
+### 4. **ADHD-Friendly Task Planner** (Windows Forms) Updated
 
-- **Description**: A C# console application designed to help individuals with ADHD manage tasks, prioritize, and track deadlines. It includes features like task prioritization, due date tracking, and filtering by priority.
+- **Description**: A **Windows Forms** application designed to help individuals with ADHD (or anyone seeking better organization) manage tasks, set priorities, track deadlines, and attach images to tasks. It builds upon the original console version with a **graphical interface**, an **MVC** architecture, and **JSON** persistence.
 - **Features**:
-  - 🎨 Custom banner with blue ASCII art for visual appeal.
-  - 📝 Add, edit, delete, and mark tasks as completed.
-  - 🎨 Color-coded priority levels (High: Red, Medium: Yellow, Low: Green).
-  - 📅 Sort tasks by due date.
-  - 🔍 Filter tasks by priority level.
-  - 📊 Progress tracking with percentage of tasks completed.
-  - 💾 Save and load tasks to/from a JSON file for persistence.
-- **Technologies Used**: C#, .NET, Console Application, JSON Serialization.
+  - 🖥️ **Windows Forms** UI with text fields, combo boxes, buttons, and a picture box for image attachments.
+  - 📝 Add, edit, delete tasks and mark them as completed.
+  - 🎨 Priority levels: High, Medium, Low.
+  - 🖼️ **Attach images** to each task, displayed in a picture box.
+  - 📅 Display due dates, show time remaining, and track completion percentage.
+  - 💾 **Save** and **Load** tasks in **JSON** format for persistence.
+  - 🗂️ **Data Grid View** to display and edit tasks in a table layout.
+  - ✅ MVC structure with `ADHDEvent` (model), `ADHDController` (controller), and `MainForm` (view).
+- **Technologies Used**: C#, .NET (Windows Forms), JSON Serialization.
 - **How to Run**:
   1. Clone the repository.
   2. Navigate to the `ADHDPlanner` folder.
-  3. Run the program using `dotnet run`. (Ensure you have .NET installed on your hardware).
+  3. Build and run the Windows Forms project:
+     - Either open the solution in Visual Studio and press **F5**,
+     - Or in VS Code / command line: `dotnet build` then `dotnet run`.
+  4. Once launched, you can add tasks, browse images, save tasks to JSON, and load them back in subsequent sessions.
 
 ---
 
