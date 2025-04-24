@@ -41,13 +41,13 @@ namespace ADHDPlanner.Model
         {
             string status = IsCompleted ? "Completed" : "Pending";
             return $@"Task: {TaskName}
-Due Date: {DueDate:MM/dd/yyyy hh:mm tt}
-Priority: {PriorityLevel}
-Status: {status}
-Is Urgent?: {(IsUrgent ? "Yes" : "No")}
-Time Remaining: {TimeRemaining.Days} days, {TimeRemaining.Hours} hours, {TimeRemaining.Minutes} minutes
-Image Path: {ImagePath ?? "No image selected"}
-";
+                Due Date: {DueDate:MM/dd/yyyy hh:mm tt}
+                Priority: {PriorityLevel}
+                Status: {status}
+                Is Urgent?: {(IsUrgent ? "Yes" : "No")}
+                Time Remaining: {TimeRemaining.Days} days, {TimeRemaining.Hours} hours, {TimeRemaining.Minutes} minutes
+                Image Path: {ImagePath ?? "No image selected"}
+                ";
         }
     }
 }

@@ -1,0 +1,56 @@
+{
+    "folder-color.pathColors": [
+        {
+            "folderPath": ".Net-Programming\\ADHDPlanner\\",
+            "color": "foldercolorizer.color_6600ff"
+        },
+        {
+            "folderPath": ".Net-Programming\\ADHDPlanner\\ADHDPlanner.csproj\\",
+            "color": "foldercolorizer.color_00ccff"
+        },
+        {
+            "folderPath": ".Net-Programming\\ADHDPlanner\\Program.cs\\",
+            "color": "foldercolorizer.color_00ccff"
+        },
+        {
+            "folderPath": ".Net-Programming\\ADHDPlanner\\tasks.json\\",
+            "color": "foldercolorizer.color_00ccff"
+        },
+        {
+            "folderPath": ".Net-Programming\\NeuralNetworkManager\\",
+            "color": "foldercolorizer.color_cc66ff"
+        },
+        {
+            "folderPath": ".Net-Programming\\PolynomialCalculator\\",
+            "color": "foldercolorizer.color_00ccff"
+        },
+        {
+            "folderPath": ".Net-Programming\\InvestmentTracker\\",
+            "color": "foldercolorizer.color_66cc00"
+        },
+        {
+            "folderPath": ".Net-Programming\\LibraryManagementSystem\\",
+            "color": "foldercolorizer.color_cccc00"
+        },
+        {
+            "folderPath": ".Net-Programming\\Storefront\\",
+            "color": "foldercolorizer.color_ff00cc"
+        },
+        {
+            "folderPath": ".Net-Programming\\README.md\\",
+            "color": "foldercolorizer.color_99ccff"
+        },
+        {
+            "folderPath": ".Net-Programming\\LICENSE\\",
+            "color": "foldercolorizer.color_99ccff"
+        },
+        {
+            "folderPath": ".Net-Programming\\.NET-Programming.sln\\",
+            "color": "foldercolorizer.color_99ccff"
+        },
+        {
+            "folderPath": ".Net-Programming\\.vscode\\",
+            "color": "foldercolorizer.color_cc6600"
+        }
+    ]
+}

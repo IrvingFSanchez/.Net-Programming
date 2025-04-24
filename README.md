@@ -117,6 +117,25 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
+### 7. **PokeDudeManager** 🧂
+
+- **Description**: A C# console application that lets you manage a team of Pokémon-inspired creatures called "PokeDudes" using a SQL Server backend and full CRUD functionality.
+- **Features**:
+  - 🎮 Discover, explore, re-describe, release, and reset PokeDudes.
+  - 🎨 Colorful welcome banner rendered using `Figgle` ASCII art.
+  - 🧠 Uses ADO.NET for connecting to a SQL Server database.
+  - 📂 Persists data locally in a database called `PokeServer`.
+- **Technologies Used**: C#, .NET, SQL Server, ADO.NET, Figgle, Console Application
+- **How to Run**:
+  1. Clone the repository.
+  2. Navigate to the `PokeDudeManager` folder.
+  3. Install dependencies using `dotnet restore`.
+  4. Install Figgle with `dotnet add package Figgle`.
+  5. Run `create_database.sql` in VS Code (SQL Server extension) to create the database and table.
+  6. Launch with `dotnet run`.
+
+---
+
 ## 🧑‍💻 About Me
 
 Hi! I'm **Irving F. Sanchez**, a student at **Lewis University** in Romeoville, Illinois pursuing my passion for software development and computer engineering. This repository is a reflection of my journey in learning **.NET programming** and building practical applications.
