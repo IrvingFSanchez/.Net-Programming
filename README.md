@@ -6,6 +6,23 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ## 🛠️ Projects
 
+### Updated "Projects" List
+
+```markdown
+## 🛠️ Projects
+
+1. **Shape Calculator**  
+2. **Polynomial Calculator**  
+3. **Storefront**  
+4. **ADHD-Friendly Task Planner**  
+5. **Investment Tracker**  
+6. **Library Management System**  
+7. **PokeDudeManager**  
+8. **PokeDudesApp (EF Core)** 🐾⚡  <-- NEW ADDITION
+```
+
+---
+
 ### 1. **Shape Calculator**
 
 - **Description**: A C# console application that calculates the volume of a cube and a sphere based on user input. It also displays a formatted banner and handles invalid input gracefully.
@@ -133,6 +150,26 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
   4. Install Figgle with `dotnet add package Figgle`.
   5. Run `create_database.sql` in VS Code (SQL Server extension) to create the database and table.
   6. Launch with `dotnet run`.
+
+---
+
+### 8. **PokeDudesApp (EF Core)** 🐾⚡
+
+- **Description**: A .NET console application demonstrating **Entity Framework Core** for database management. Models Pokémon trainers ("PokeDudes") and their Pokémon ("PokePals") with SQL Server LocalDB. Features migrations, async queries, and CRUD operations.
+- **Features**:
+  - 🗄️ **Database Modeling**: Two related tables (`PokeDude` and `PokePal`) with 1-to-many relationships.
+  - 🧩 **Entity Framework Core**: Migrations, DbContext, and LINQ-to-SQL translation.
+  - 🌱 **Database Seeding**: Auto-populates initial data if tables are empty.
+  - 🔍 **8 Async Queries**:
+    - Retrieve all rows, filtered subsets, joins, sorting, aggregation (count/average), and custom queries.
+  - 📸 **Screenshot Support**: Proof of database population for GitHub.
+  - ⚡ **Async/Await**: Non-blocking database operations for scalability.
+- **Technologies Used**: C#, .NET, EF Core, SQL Server LocalDB, LINQ.
+
+- **Key Lessons**:
+  - EF Core migrations for schema management.
+  - Async database operations with `ToListAsync()`, `FirstOrDefaultAsync()`, etc.
+  - LINQ query composition (filtering, sorting, joins, aggregation).
 
 ---
 

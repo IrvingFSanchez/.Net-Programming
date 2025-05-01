@@ -1,0 +1,39 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio folders
+.vs/
+.vscode/
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dotnet CLI
+*.deps.json
+*.runtimeconfig.json
+
+# Environment variables
+.env
+
+# Backup files
+*.bak
+*.tmp
