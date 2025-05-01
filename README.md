@@ -8,22 +8,18 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ### Updated "Projects" List
 
-```markdown
-## 🛠️ Projects
-
-1. **Shape Calculator**  
-2. **Polynomial Calculator**  
-3. **Storefront**  
-4. **ADHD-Friendly Task Planner**  
-5. **Investment Tracker**  
-6. **Library Management System**  
-7. **PokeDudeManager**  
-8. **PokeDudesApp (EF Core)** 🐾⚡  <-- NEW ADDITION
-```
+1. **[Shape Calculator](#shape-calculator)**  
+2. **[Polynomial Calculator](#polynomial-calculator)**  
+3. **[Storefront](#storefront)**  
+4. **[ADHD-Friendly Task Planner](#adhd-task-planner)**  
+5. **[Investment Tracker](#investment-tracker)**  
+6. **[Library Management System](#library-management-system)**  
+7. **[PokeDudeManager](#pokedudemanager)**  
+8. **[PokeDudesApp (EF Core)](#pokedudesapp-ef-core)** 🐾⚡  
 
 ---
 
-### 1. **Shape Calculator**
+### 1. Shape Calculator <a id="shape-calculator"></a>
 
 - **Description**: A C# console application that calculates the volume of a cube and a sphere based on user input. It also displays a formatted banner and handles invalid input gracefully.
 - **Features**:
@@ -39,7 +35,7 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
-### 2. **Polynomial Calculator**
+### 2. Polynomial Calculator <a id="polynomial-calculator"></a>
 
 - **Description**: A C# console application that calculates the values of polynomial functions (up to degree 3) over a specified domain. It allows users to input coefficients, domain ranges, and displays the polynomial's values in a tabulated format.
 - **Features**:
@@ -56,7 +52,7 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
-### 3. **Storefront**
+### 3. Storefront <a id="storefront"></a>
 
 - **Description**: A C# console application that simulates a storefront where users can purchase items from an inventory loaded from a text file. The program allows users to add items to their cart, specify quantities, and calculates the total cost at checkout.
 - **Features**:
@@ -74,7 +70,7 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
-### 4. **ADHD-Friendly Task Planner** (Windows Forms) Updated
+### 4. ADHD-Friendly Task Planner <a id="adhd-task-planner"></a>
 
 - **Description**: A **Windows Forms** application designed to help individuals with ADHD (or anyone seeking better organization) manage tasks, set priorities, track deadlines, and attach images to tasks. It builds upon the original console version with a **graphical interface**, an **MVC** architecture, and **JSON** persistence.
 - **Features**:
@@ -97,7 +93,7 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
-### 5. **Investment Tracker** 💰
+### 5. Investment Tracker <a id="investment-tracker"></a> 💰
 
 - **Description**: A C# console application that helps users manage their investments, including checking accounts and certificates of deposit (CDs). It features deposits, withdrawals, auto-adjustments, and account summaries, emphasizing **encapsulation**, **inheritance**, and **polymorphism**.
 - **Features**:
@@ -116,7 +112,7 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
-### 6. **Library Management System** 📚
+### 6. Library Management System <a id="library-management-system"></a> 📚
 
 - **Description**: A C# console application that models a library system. It allows users to manage books and periodicals, check out and return holdings, and view statistics about the library's collection. The program emphasizes **inheritance**, **polymorphism**, and **encapsulation**.
 - **Features**:
@@ -134,7 +130,7 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
-### 7. **PokeDudeManager** 🧂
+### 7. PokeDudeManager <a id="pokedudemanager"></a> 🧂
 
 - **Description**: A C# console application that lets you manage a team of Pokémon-inspired creatures called "PokeDudes" using a SQL Server backend and full CRUD functionality.
 - **Features**:
@@ -153,7 +149,7 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 
 ---
 
-### 8. **PokeDudesApp (EF Core)** 🐾⚡
+### 8. PokeDudesApp (EF Core) <a id="pokedudesapp-ef-core"></a> 🐾⚡
 
 - **Description**: A .NET console application demonstrating **Entity Framework Core** for database management. Models Pokémon trainers ("PokeDudes") and their Pokémon ("PokePals") with SQL Server LocalDB. Features migrations, async queries, and CRUD operations.
 - **Features**:
