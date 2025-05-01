@@ -51,6 +51,10 @@
         {
             "folderPath": ".Net-Programming\\.vscode\\",
             "color": "foldercolorizer.color_cc6600"
+        },
+        {
+            "folderPath": ".Net-Programming\\PokeDudesApp\\",
+            "color": "foldercolorizer.color_ff9933"
         }
     ]
 }
