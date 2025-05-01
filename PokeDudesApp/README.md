@@ -145,7 +145,7 @@ You’ll need the following installed:
 1. Clone the repo:
 
    ```markdown
-   git clone https://github.com/your-username/PokeDudesApp.git
+   git clone https://github.com/IrvingFSanchez/.Net-Programming.git
    cd PokeDudesApp
    ```
 
