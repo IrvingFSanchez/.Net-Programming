@@ -1,0 +1,83 @@
+@* 
+    =============================================
+    TEMPERATURE CONVERTER - MAIN CONVERSION VIEW
+    =============================================
+    This view handles:
+    - Temperature input form
+    - Scale selection (Celsius/Fahrenheit)
+    - Conversion results display
+    - Form validation
+    Uses Temperature model for data binding
+*@
+
+@model TempConverter.Models.Temperature
+
+@* MAIN CONVERSION PANEL ↓*@
+<div class="weather-station-panel">
+    <h2>Temperature Converter</h2>
+
+    @* CONVERSION FORM 
+       Posts to HomeController.Convert() action *@
+    <form asp-action="Convert" method="post">
+        @* TEMPERATURE VALUE INPUT *@
+        <div class="form-group">
+            <label>Original Temperature:</label>
+            @* Input field bound to Temperature.Value model property *@
+            <input asp-for="Value" class="form-control" 
+                   placeholder="Enter a number" />
+            @* Validation message for temperature input *@
+            <span asp-validation-for="Value" class="text-danger"></span>
+        </div>
+
+        @* TEMPERATURE SCALE SELECTION ↓*@
+        <div class="form-group">
+            <label>Scale:</label>
+            @* Dropdown bound to Temperature.Scale model property *@
+            <select asp-for="Scale" class="form-control">
+                <option value="C">Celsius (°C)</option>
+                <option value="F">Fahrenheit (°F)</option>
+            </select>
+        </div>
+
+        @* FORM ACTION BUTTONS *@
+        <div class="button-group">
+            @* Submit button - triggers conversion *@
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-exchange-alt"></i> Convert
+            </button>
+            @* Clear button - resets the form *@
+            <a asp-action="Clear" class="btn btn-secondary">
+                <i class="fas fa-eraser"></i> Clear
+            </a>
+        </div>
+    </form>
+
+    @* CONVERSION RESULTS DISPLAY
+       Only shown after successful conversion *@
+    @if (ViewBag.ConvertedTemp != null)
+    {
+        <div class="result-panel">
+            <h4>Converted Temperature:</h4>
+            <p>
+                @* Original temperature display *@
+                @Model.Value.ToString("F3")°@Model.Scale = 
+                @* Converted temperature display *@
+                @ViewBag.ConvertedTemp.ToString("F3")°@ViewBag.ConvertedScale
+            </p>
+        </div>
+    }
+</div>
+
+@* 
+    =============================================
+    SECTION BREAKDOWN:
+    1. Form with temperature input and scale selection
+    2. Conversion results panel (conditional display)
+    3. Uses Tag Helpers for form binding and actions
+    4. Includes validation feedback
+    =============================================
+*@
+
+@* Note to self: THIS IS THE COOLEST THING EVER! This is exactly what I wanted to learn.....*@
+
+@* Many years from now you're gonna look back at these notes and think you're cheesy.....to future self*@

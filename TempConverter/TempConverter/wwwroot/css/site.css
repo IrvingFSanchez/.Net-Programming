@@ -1,0 +1,408 @@
+/*
+================================================================================
+DUAL-THEME TEMPERATURE CONVERTER - COMPLETE STYLES
+================================================================================
+*/
+
+/*---+---+---+--Start of Base Variables---+---+---+--*/
+:root {
+    /* Light Theme */
+    --light-bg: linear-gradient(135deg, #e6f7ff 0%, #f0f9ff 100%);
+    --light-panel: white;
+    --light-text: #333;
+    --light-border: #d1e0f0;
+    --light-accent: #2a5c8d;
+    --light-btn-primary: #4a90e2;
+    --light-btn-hover: #3a7bc8;
+    --light-error: #e74c3c;
+    --light-footer-bg: #f8f9fa;
+
+    /* Dark Theme */
+    --dark-bg: linear-gradient(135deg, #121212 0%, #1e1e1e 100%);
+    --dark-panel: #2d2d2d;
+    --dark-text: #e0e0e0;
+    --dark-border: #3a3a3a;
+    --dark-accent: #6ab0f3;
+    --dark-btn-primary: #1a73e8;
+    --dark-btn-hover: #1557b0;
+    --dark-error: #ff6b6b;
+    --dark-footer-bg: #252525;
+}
+
+/* Default to dark theme */
+[data-theme="dark"] {
+    --bg: var(--dark-bg);
+    --panel: var(--dark-panel);
+    --text: var(--dark-text);
+    --border: var(--dark-border);
+    --accent: var(--dark-accent);
+    --btn-primary: var(--dark-btn-primary);
+    --btn-hover: var(--dark-btn-hover);
+    --error: var(--dark-error);
+    --footer-bg: var(--dark-footer-bg);
+}
+
+/* Light theme override */
+[data-theme="light"] {
+    --bg: var(--light-bg);
+    --panel: var(--light-panel);
+    --text: var(--light-text);
+    --border: var(--light-border);
+    --accent: var(--light-accent);
+    --btn-primary: var(--light-btn-primary);
+    --btn-hover: var(--light-btn-hover);
+    --error: var(--light-error);
+    --footer-bg: var(--light-footer-bg);
+}
+/*---+---+---+--End of Base Variables---+---+---+--*/
+
+
+/*---+---+---+--Start of Global Styles---+---+---+--*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--bg);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    color: var(--text);
+    transition: background 0.5s ease, color 0.3s ease;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    color: var(--accent);
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/*---+---+---+--End of Global Styles---+---+---+--*/
+
+
+/*---+---+---+--Start of Navigation---+---+---+--*/
+.navbar {
+    background: var(--panel) !important;
+    border-bottom: 1px solid var(--border) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--text) !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--accent) !important;
+}
+
+.navbar-toggler {
+    border-color: var(--border);
+}
+/*---+---+---+--End of Navigation---+---+---+--*/
+
+
+/*---+---+---+--Start of Toggle Button---+---+---+--*/
+.theme-toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.theme-toggle-btn:hover {
+    transform: scale(1.1);
+    background: var(--accent);
+    color: white;
+}
+
+.theme-icon {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.theme-toggle-btn:hover .theme-icon {
+    transform: rotate(30deg);
+}
+/*---+---+---+--End of Toggle Button---+---+---+--*/
+
+
+/*---+---+---+--Start of Form Elements---+---+---+--*/
+.weather-station-panel {
+    background: var(--panel);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--accent);
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 15px;
+    background: var(--panel);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select.form-control {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236ab0f3'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 12px;
+    padding-right: 35px;
+}
+
+.form-control:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
+    outline: none;
+}
+/*---+---+---+--End of Form Elements---+---+---+--*/
+
+
+/*---+---+---+--Start of Button Styles---+---+---+--*/
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    gap: 8px;
+}
+
+.btn-primary {
+    background-color: var(--btn-primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--btn-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.btn-secondary {
+    background-color: color-mix(in srgb, var(--border) 80%, var(--panel));
+    color: var(--text);
+}
+
+.btn-secondary:hover {
+    background-color: var(--border);
+    transform: translateY(-2px);
+}
+
+.btn-sm {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+/*---+---+---+--End of Button Styles---+---+---+--*/
+
+
+/*---+---+---+--Start of Results Panel---+---+---+--*/
+.result-panel {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: color-mix(in srgb, var(--accent) 8%, var(--panel));
+    border-radius: 5px;
+    border-left: 4px solid var(--accent);
+    transition: all 0.3s ease;
+}
+
+.result-panel h4 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--accent);
+}
+
+.result-panel p {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.result-value {
+    font-size: 1.3rem;
+    color: var(--accent);
+    font-weight: 600;
+}
+/*---+---+---+--End of Results Panel---+---+---+--*/
+
+
+/*---+---+---+--Start of Error States---+---+---+--*/
+.text-danger {
+    color: var(--error);
+    font-size: 14px;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.input-validation-error {
+    border-color: var(--error) !important;
+}
+
+.input-validation-error:focus {
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--error) 25%, transparent);
+}
+
+.validation-summary-errors {
+    color: var(--error);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    background: color-mix(in srgb, var(--error) 10%, transparent);
+    border-left: 4px solid var(--error);
+}
+
+.validation-summary-errors ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+/*---+---+---+--End of Error States---+---+---+--*/
+
+
+/*---+---+---+--Start of Footer---+---+---+--*/
+footer {
+    background: var(--footer-bg);
+    border-top: 1px solid var(--border) !important;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    color: var(--text);
+}
+
+footer a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--btn-hover);
+    text-decoration: underline;
+}
+/*---+---+---+--End of Footer---+---+---+--*/
+
+
+/*---+---+---+--Start of Animations---+---+---+--*/
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.result-panel {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+/*---+---+---+--End of Animations---+---+---+--*/
+
+
+/*---+---+---+--Start of Responsive Adjustments---+---+---+--*/
+@media (max-width: 576px) {
+    .weather-station-panel {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+    
+    .theme-toggle-btn {
+        top: 10px;
+        right: 10px;
+        width: 36px;
+        height: 36px;
+    }
+}
+/*---+---+---+--End of Responsive Adjustments---+---+---+--*/
+
+
+/*---+---+---+--Start of Q&A Styles---+---+---+--*/
+.qa-section {
+    margin-bottom: 2rem;
+}
+
+.qa-section h3 {
+    color: var(--accent);
+    margin-top: 1.5rem;
+    font-weight: 400;
+}
+
+.qa-section pre {
+    background: color-mix(in srgb, var(--accent) 10%, var(--panel));
+    padding: 12px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.qa-section code {
+    font-family: 'Courier New', monospace;
+    color: var(--accent);
+}
+
+.convention-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background: color-mix(in srgb, var(--accent) 8%, var(--panel));
+}
+
+.convention-table th, 
+.convention-table td {
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    text-align: left;
+}
+
+.convention-table th {
+    background: color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+.convention-table tr:nth-child(even) {
+    background: color-mix(in srgb, var(--accent) 5%, transparent);
+}
+/*---+---+---+--End of Q&A Styles---+---+---+--*/

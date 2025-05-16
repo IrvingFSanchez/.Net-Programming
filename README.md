@@ -16,6 +16,7 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
 6. **[Library Management System](#library-management-system)**  
 7. **[PokeDudeManager](#pokedudemanager)**  
 8. **[PokeDudesApp (EF Core)](#pokedudesapp-ef-core)** 🐾⚡  
+9. **[Temperature Converter](#temperature-converter)** 🌡️✨ *(NEW!)*
 
 ---
 
@@ -166,6 +167,42 @@ Welcome to my **.Net Programming** repository! This repository contains all the 
   - EF Core migrations for schema management.
   - Async database operations with `ToListAsync()`, `FirstOrDefaultAsync()`, etc.
   - LINQ query composition (filtering, sorting, joins, aggregation).
+
+---
+
+### 9. Temperature Converter <a id="temperature-converter"></a> 🌡️✨
+
+**A sleek ASP.NET Core MVC web app that converts between Celsius and Fahrenheit with theme switching**
+
+#### 🌟 Key Features
+
+- **🌓 Smart Theme System**  
+  Remembers your light/dark preference like a smart thermostat
+- **📱 Responsive Design**  
+  Works perfectly on phones, tablets, and desktops
+- **❓ Built-in Questionnare**  
+  Explains ASP.NET concepts using friendly analogies
+- **⚡ Instant Results**  
+  Real-time conversion without page reloads
+
+#### 🛠️ Tech Stack
+
+- ASP.NET Core MVC
+- Razor Pages
+- CSS Variables for theming
+- Tag Helpers for clean code
+
+#### 🏗️ System Architecture
+
+```mermaid
+graph TD
+    A[User] -->|Input| B[Controller]
+    B --> C[Model Validation]
+    C -->|Valid| D[Conversion Logic]
+    C -->|Invalid| E[Error Messages]
+    D --> F[View Result]
+    E --> F
+```
 
 ---
 

@@ -1,0 +1,134 @@
+﻿@* 
+    =============================================
+    MASTER LAYOUT TEMPLATE
+    =============================================
+    This is the root template that wraps all views.
+    Features:
+    - Theme switching system (dark/light). Every....single....app...and....software...needs....dark....mode.....
+    - Responsive navigation
+    - Shared resources (CSS/JS)
+    - Consistent structure across all pages
+*@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    @* =====================
+       META & RESOURCES 
+       ===================== *@
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TempConverter</title>
+    
+    @* Core CSS Files ↓ *@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/TempConverter.styles.css" asp-append-version="true" />
+    
+    @* Theme Initialization - prevents flash on page load ↓*@
+    <script>
+        // Applies saved theme immediately (helps with sensitive eyes)
+        document.documentElement.setAttribute('data-theme', 
+            localStorage.getItem('theme') || 'dark');
+    </script>
+</head>
+
+<body>
+    @* =====================
+       THEME TOGGLE BUTTON 
+       ===================== *@
+    <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle dark/light mode">
+        <span class="theme-icon">🌓</span> @* Default moon/sun icon *@
+    </button>
+
+    @* =====================
+       MAIN NAVIGATION 
+       ===================== *@
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                @* Brand/Logo *@
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">TempConverter</a>
+                
+                @* Mobile Menu Toggle *@
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                @* Navigation Links *@
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-action="Questions">Questions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    @* =====================
+       MAIN CONTENT CONTAINER 
+       ===================== *@
+    <div class="container">
+        <main role="main" class="pb-3">
+            @* This is where individual views get injected ↓ *@
+            @RenderBody()
+        </main>
+    </div>
+
+    @* =====================
+       CORE JAVASCRIPT FILES 
+       ===================== *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+    @* =====================
+       THEME TOGGLE LOGIC 
+       ===================== *@
+    <script>
+        // Wait until DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleBtn = document.getElementById('themeToggle');
+            const themeIcon = toggleBtn.querySelector('.theme-icon');
+            
+            // Set initial icon based on current theme
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            themeIcon.textContent = currentTheme === 'dark' ? '🌓' : '🌒';
+            
+            // Toggle between dark/light themes. Had to put dark mode in bc my eyes were freaking burning.
+            toggleBtn.addEventListener('click', () => {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                
+                // Update theme and persist in localStorage
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                
+                // Update icon to match new theme
+                themeIcon.textContent = newTheme === 'dark' ? '🌓' : '🌒';
+            });
+        });
+    </script>
+
+    @* Optional section for view-specific scripts*@
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+@* 
+    =============================================
+    KEY FEATURES:
+    1. Theme persistence using localStorage
+    2. Responsive Bootstrap navigation
+    3. Clean separation of concerns
+    4. Accessibility considerations
+    5. View-specific script injection point
+    =============================================
+*@

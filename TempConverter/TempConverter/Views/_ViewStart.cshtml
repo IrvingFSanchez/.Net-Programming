@@ -1,0 +1,37 @@
+﻿@* 
+    =============================================
+    VIEW START CONFIGURATION
+    =============================================
+    This file runs automatically before ANY view renders.
+    Its primary purpose is to set the default layout template.
+    
+    You could think of it as your "set it and forget it" configuration
+    that ensures consistency across all pages.
+    -Sets _Layout.cshtml as the default template for all views
+    -Views can override this by specifying their own Layout
+*@
+
+@{
+
+    Layout = "_Layout";
+}
+
+@* 
+    =============================================
+    KEY POINTS:
+    1. Executes before each view renders
+    2. Centralizes layout configuration
+    3. Can be overridden per-view when needed
+    
+    Example override in a view:
+    @@{
+        Layout = "_AlternateLayout"; // Uses different template
+    }
+
+    Just a small little useful gee-wiz thing I also did not know.
+    =============================================
+*@
+
+@* Note to self, using the '@symbol with * and ending with * @' allows you to make comments to your HTML 
+without it ever showing up on the browser side 'client side' but can show up on the 'server', it stays hidden. Did...not...know....that....
+*@

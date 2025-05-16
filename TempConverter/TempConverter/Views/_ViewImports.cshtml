@@ -1,0 +1,30 @@
+﻿@* 
+    =============================================
+    GLOBAL VIEW IMPORTS
+    =============================================
+    This file is automatically included in all views.
+    It establishes global namespace references and 
+    enables Tag Helpers for the entire application.
+*@
+
+@* Make project namespaces available in all views ↓ *@
+
+@using TempConverter         @* Root namespace *@
+@using TempConverter.Models  @* Models namespace *@
+
+@* Enable ASP.NET Core Tag Helpers application-wide ↓ *@
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@* 
+    =============================================
+    WHAT THIS ESSENTIALLY DOES:
+    1. Avoids repeating @using statements in every view
+    2. Makes all standard Tag Helpers available everywhere
+    3. Maintains consistent references across the project
+    
+    Note: This file executes before any view renders,
+    similar to 'import' statements in other languages.
+    =============================================
+*@
+

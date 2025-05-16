@@ -1,0 +1,118 @@
+@* 
+    ==============================================
+    QUESTIONS VIEW - ASP.NET CORE MVC DOCUMENTATION
+    ==============================================
+    This view provides answers to key technical questions about: (basically the questions from the assignment lol)
+    1. Layout files (_Layout.cshtml and _ViewStart.cshtml)
+    2. Tag Helpers functionality
+    3. View location conventions
+*@
+
+@{
+    ViewData["Title"] = "Questions";  // Sets browser tab title
+}
+
+<style>
+    /* Main panel styling - increased width for better readability */
+    .weather-station-panel {
+        max-width: 650px;  /* Expanded from original 500px which initially i couldn't fit the table at 500px, so this was a happy medium */
+        margin: 40px auto; /* Centered with top/bottom spacing */
+        padding: 30px;     /* Internal padding */
+    }
+    
+    /* Table styling for view convention examples */
+    .convention-table {
+        width: 100%;                   /* Full container width */
+        border-collapse: collapse;     /* Clean border styling */
+        margin: 1rem 0;               /* Vertical spacing */
+        background: color-mix(in srgb, var(--accent) 8%, transparent);
+    }
+    
+    /* Table cell styling */
+    .convention-table th, 
+    .convention-table td {
+        padding: 0.75rem;            /* Cell padding */
+        border: 1px solid var(--border); /* Theme-aware borders */
+    }
+    
+    /* Table header styling */
+    .convention-table th {
+        background: color-mix(in srgb, var(--accent) 15%, transparent);
+    }
+</style>
+
+@* 
+    MAIN CONTENT PANEL
+    Contains all Q&A sections with technical explanations
+*@
+<div class="weather-station-panel">
+    <h2>ASP.NET Core MVC Questions</h2>
+
+    @* Q&A SECTION CONTAINER *@
+    <div class="qa-section">
+        
+        @* =====================
+           QUESTION 1: LAYOUT FILES 
+           ===================== *@
+        <h3>1. Explain purpose of _Layout.cshtml and _ViewStart.cshtml</h3>
+        <p>
+            <strong>_Layout.cshtml</strong> is the master template that:
+        </p>
+        <ul>
+            <li><strong>Defines</strong>: the common HTML structure for all pages</li>
+            <li><strong>Contains</strong>: Shared Resources (CSS, Javascript, kinda reminds me of React)</li>
+            <li><strong>Includes</strong>: the navigation elements</li>
+            <li><strong>Provides</strong>: the "RenderBody()" placeholder where view content is injected--also semi-similar to how React works</li>
+        </ul>
+        <p>Essentially the _Layout.cshtml acts like a photo frame you reuse for all your pictures. The frame (_Layout) stays the same - it has all of your favorite
+            colors, decoratives, and a standard size. Each photo (web page) slides into this frame automatically.
+        </p>
+
+        @* ==================
+           QUESTION 2: TAG HELPERS 
+           ================== *@
+        <h3>2. What are Tag Helpers?</h3>
+        <p>
+        <strong>Tag Helpers</strong>: are ASP.NET components that enhance standard HTML elements with server-side processing capabilities.    
+        </p>
+        <ul>
+            <li><strong>Enhances</strong>: HTML elements</li>
+            <li><strong>The Key Purpose</strong>: to include html attributes</li>
+            <li><strong>For Example</strong>: </li>
+                    <pre><code>&lt;a asp-action="Index"&gt;Home&lt;/a&gt;</code></pre>
+                            <p>...this becomes <code>&lt;a href="/"&gt;Home&lt;/a&gt;</code> at runtime.</p>
+        </ul>
+        <p>Really good for when you need to attribute technical details like where a certain page is located, what kind of data you want to take in, and how to connect
+            different forms to your code.
+        </p>
+
+        @* ========================
+           QUESTION 3: VIEW CONVENTIONS 
+           ======================== *@
+        <h3>3. How Views Are Automatically Found</h3>
+        <p>
+            When you use <code>return View()</code>, ASP.NET Core follows these simple rules to find the right page:
+        </p>
+        <ul>
+            <li><strong>First looks in</strong>: <code>/Views/[ControllerName]/[ActionName].cshtml</code></li>
+            <li><strong>Then checks</strong>: <code>/Views/Shared/[ActionName].cshtml</code></li>
+        </ul>
+        
+        <p><strong>Real example from this project:</strong></p>
+        <table class="convention-table">
+            <tr>
+                <th>When you call...</th>
+                <th>ASP.NET looks for...</th>
+            </tr>
+            <tr>
+                <td><code>HomeController.Index()</code></td>
+                <td><code>/Views/Home/Index.cshtml</code></td>
+            </tr>
+        </table>
+        
+        <p class="note">It's like how a librarian knows exactly where to find a book - the controller name tells them which shelf to check, and the action name is the specific book they're looking for!</p>
+    </div>
+
+    @* NAVIGATION BUTTON *@
+    <a asp-action="Index" class="btn btn-primary">Back to Converter</a>
+</div>

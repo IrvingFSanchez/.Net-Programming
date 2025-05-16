@@ -1,0 +1,39 @@
+# Build outputs
+bin/
+obj/
+
+# IDE and Editor files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet Packages
+*.nupkg
+.nuget/
+
+# Local development files
+appsettings.Development.json
+
+# Compiled outputs
+*.dll
+*.pdb
+*.exe
+
+# Rider IDE
+.idea/
+
+# Visual Studio Code
+.history/
+*.swp
+*.swn
+*.swo
+
+# Frontend Build Files
+
+dist/
+*.js.map
+*.css.map
+*.tsbuildinfo
